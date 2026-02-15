@@ -10,7 +10,6 @@ const navLinks = [
     { name: 'Inicio', href: '/' },
     { name: 'Menú', href: '/menu' },
     { name: 'Reservas', href: '/reserve' },
-    { name: 'Dashboard', href: '/dashboard' },
 ];
 
 export function Navbar() {
@@ -36,8 +35,8 @@ export function Navbar() {
                                         key={link.name}
                                         href={link.href}
                                         className={`px-3 py-2 rounded-md text-sm font-medium transition-colors duration-300 ${isActive
-                                                ? 'text-[#bea98e] bg-white/5'
-                                                : 'text-gray-300 hover:text-[#bea98e] hover:bg-white/5'
+                                            ? 'text-[#bea98e] bg-white/5'
+                                            : 'text-gray-300 hover:text-[#bea98e] hover:bg-white/5'
                                             }`}
                                     >
                                         {link.name}
