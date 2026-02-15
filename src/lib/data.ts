@@ -20,7 +20,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Puglia, IT',
-        image_url: 'https://images.unsplash.com/photo-1568471173242-461f0a730523?auto=format&fit=crop&q=80&w=2070', // NEW VALID URL
+        image_url: 'https://images.unsplash.com/photo-1594910609689-d13de98d925e?auto=format&fit=crop&q=80&w=2070', // NEW VALID URL (Burrata/Salad)
     },
     {
         id: '3',
