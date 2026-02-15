@@ -69,7 +69,7 @@ export function InnovationModal({ type, onClose }: InnovationModalProps) {
                     animate={{ scale: 1, y: 0 }}
                     exit={{ scale: 0.9, y: 20 }}
                     onClick={(e) => e.stopPropagation()}
-                    className="bg-[#121212] w-full max-w-3xl rounded-2xl border border-white/10 overflow-hidden shadow-2xl flex flex-col md:flex-row relative"
+                    className="bg-[#121212] w-full max-w-3xl max-h-[85vh] overflow-y-auto rounded-2xl border border-white/10 shadow-2xl flex flex-col md:flex-row relative"
                 >
                     <button
                         onClick={onClose}
