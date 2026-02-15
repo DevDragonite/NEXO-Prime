@@ -69,18 +69,20 @@ export function Footer() {
 
                     {/* Links */}
                     <div className="space-y-4">
-                        <h4 className="text-white font-bold uppercase tracking-wider text-sm">Legal</h4>
-                        <ul className="space-y-2 text-sm text-gray-400">
-                            <li><Link href="#" className="hover:text-[#bea98e] transition-colors">Política de Privacidad</Link></li>
-                            <li><Link href="#" className="hover:text-[#bea98e] transition-colors">Términos de Servicio</Link></li>
-                            <li><Link href="#" className="hover:text-[#bea98e] transition-colors">Código de Vestimenta</Link></li>
-                            <li><Link href="#" className="hover:text-[#bea98e] transition-colors">Trabaja con Nosotros</Link></li>
-                        </ul>
+                        <div>
+                            <h3 className="text-white font-serif mb-6">LEGAL</h3>
+                            <ul className="space-y-4 text-sm text-gray-400">
+                                <li><Link href="/info/privacy" className="hover:text-[#bea98e] transition-colors">Política de Privacidad</Link></li>
+                                <li><Link href="/info/terms" className="hover:text-[#bea98e] transition-colors">Términos de Servicio</Link></li>
+                                <li><Link href="/info/dress-code" className="hover:text-[#bea98e] transition-colors">Código de Vestimenta</Link></li>
+                                <li><Link href="/info/careers" className="hover:text-[#bea98e] transition-colors">Trabaja con Nosotros</Link></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
 
-                <div className="pt-8 border-t border-white/5 text-center text-xs text-gray-600">
-                    <p>&copy; {new Date().getFullYear()} NEXO PRIME. Todos los derechos reservados.</p>
+                    <div className="pt-8 border-t border-white/5 text-center text-xs text-gray-600 col-span-1 md:col-span-2 lg:col-span-4">
+                        <p>&copy; {new Date().getFullYear()} NEXO PRIME. Todos los derechos reservados.</p>
+                    </div>
                 </div>
             </div>
         </footer>

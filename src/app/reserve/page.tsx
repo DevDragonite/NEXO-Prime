@@ -73,7 +73,7 @@ export default function ReservePage() {
                     {/* Card 2: Private Events */}
                     <motion.div variants={itemVariants} onClick={() => setSelectedExperience('EVENTS')} className="group relative h-96 cursor-pointer overflow-hidden rounded-2xl border border-white/10 bg-white/5 hover:border-[#bea98e]/50 transition-all duration-500">
                         <div className="absolute inset-0 bg-gradient-to-t from-black via-black/50 to-transparent z-10" />
-                        <img src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070" alt="Private" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" />
+                        <img src="https://images.unsplash.com/photo-1559339352-11d035aa65de?auto=format&fit=crop&q=80&w=2070" alt="Private" className="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" />
                         <div className="absolute bottom-0 p-8 z-20 w-full">
                             <GlassWater className="w-10 h-10 text-[#bea98e] mb-4" />
                             <h3 className="text-2xl font-serif text-white mb-2">The Vault</h3>

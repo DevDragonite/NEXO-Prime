@@ -20,7 +20,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Puglia, IT',
-        image_url: 'https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1627308595126-d34e9e4e37f8?auto=format&fit=crop&q=80&w=2070', // UPDATED: Burrata salad
     },
     {
         id: '3',
@@ -92,7 +92,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Premium',
         type: 'MEAT',
         origin: 'USDA Prime',
-        image_url: 'https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&q=80&w=2070', // RESTORED original
+        image_url: 'https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&q=80&w=2070',
     },
 
     // --- CORTES NACIONALES (VENEZUELA) ---
@@ -104,7 +104,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Zulia, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1607116176195-b81b1f41f536?auto=format&fit=crop&q=80&w=2070', // RESTORED original
+        image_url: 'https://images.unsplash.com/photo-1603073163308-9654c3fb70b9?auto=format&fit=crop&q=80&w=2070', // UPDATED: Grilled steak sliced
     },
     {
         id: '202',
@@ -114,7 +114,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Lara, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&q=80&w=2070', // RESTORED original
+        image_url: 'https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&q=80&w=2070',
     },
     {
         id: '203',
@@ -124,7 +124,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Llanos, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1602447938363-2285df622c83?auto=format&fit=crop&q=80&w=2070', // RESTORED original
+        image_url: 'https://images.unsplash.com/photo-1600891965050-681b47c0b943?auto=format&fit=crop&q=80&w=2070', // UPDATED: Filet plated
     },
 
     // --- COCTELERÍA DE AUTOR ---
@@ -198,6 +198,6 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería Clásica',
         type: 'DRINK',
         origin: 'Classic',
-        image_url: 'https://images.unsplash.com/photo-1541544537156-21c2d0f39383?auto=format&fit=crop&q=80&w=2070', // Valid Margarita
+        image_url: 'https://images.unsplash.com/photo-1510626176961-4b57d4fbad03?auto=format&fit=crop&q=80&w=2070', // UPDATED: Classic Lime Margarita
     },
 ];

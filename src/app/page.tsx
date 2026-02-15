@@ -4,6 +4,8 @@ import { motion, Variants } from 'framer-motion';
 import { ArrowRight, Flame, Layers, Network } from 'lucide-react';
 import Link from 'next/link';
 import Image from 'next/image';
+import { InnovationModal, InnovationType } from '@/components/ui/InnovationModal';
+import { useState } from 'react';
 
 const fadeInUp: Variants = {
   hidden: { opacity: 0, y: 30 },
@@ -21,8 +23,11 @@ const staggerContainer: Variants = {
 };
 
 export default function Home() {
+  const [innovationType, setInnovationType] = useState<InnovationType>(null);
+
   return (
     <div className="flex flex-col min-h-screen">
+      <InnovationModal type={innovationType} onClose={() => setInnovationType(null)} />
 
       {/* HERO SECTION */}
       <section className="relative h-[90vh] flex items-center justify-center overflow-hidden">
@@ -36,12 +41,6 @@ export default function Home() {
             className="object-cover"
             priority
           />
-          {/* 
-            TODO: Replace with actual <video> tag when asset is available
-            <video autoPlay loop muted playsInline className="w-full h-full object-cover">
-              <source src="/hero-steak.mp4" type="video/mp4" />
-            </video>
-          */}
         </div>
 
         <div className="relative z-20 text-center px-4 max-w-5xl mx-auto">
@@ -104,7 +103,11 @@ export default function Home() {
             className="grid grid-cols-1 md:grid-cols-3 gap-8"
           >
             {/* Card 1 */}
-            <motion.div variants={fadeInUp} className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500">
+            <motion.div
+              variants={fadeInUp}
+              onClick={() => setInnovationType('BLOCKCHAIN')}
+              className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500 cursor-pointer"
+            >
               <div className="flex justify-center mb-6">
                 <div className="p-4 rounded-full bg-[#bea98e]/10 group-hover:bg-[#bea98e]/20 transition-colors">
                   <Network className="h-8 w-8 text-[#bea98e]" />
@@ -117,7 +120,11 @@ export default function Home() {
             </motion.div>
 
             {/* Card 2 */}
-            <motion.div variants={fadeInUp} className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500">
+            <motion.div
+              variants={fadeInUp}
+              onClick={() => setInnovationType('MATURATION')}
+              className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500 cursor-pointer"
+            >
               <div className="flex justify-center mb-6">
                 <div className="p-4 rounded-full bg-[#bea98e]/10 group-hover:bg-[#bea98e]/20 transition-colors">
                   <Flame className="h-8 w-8 text-[#bea98e]" />
@@ -130,7 +137,11 @@ export default function Home() {
             </motion.div>
 
             {/* Card 3 */}
-            <motion.div variants={fadeInUp} className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500">
+            <motion.div
+              variants={fadeInUp}
+              onClick={() => setInnovationType('IMMERSIVE')}
+              className="group p-8 border border-white/5 bg-white/5 hover:bg-white/10 transition-colors duration-500 cursor-pointer"
+            >
               <div className="flex justify-center mb-6">
                 <div className="p-4 rounded-full bg-[#bea98e]/10 group-hover:bg-[#bea98e]/20 transition-colors">
                   <Layers className="h-8 w-8 text-[#bea98e]" />
