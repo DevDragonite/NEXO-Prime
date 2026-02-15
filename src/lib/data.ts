@@ -14,13 +14,13 @@ export const MENU_ITEMS: MenuItem[] = [
     },
     {
         id: '2',
-        name: 'Burrata Molecular',
-        description: 'Espuma de tomate orgánico, tierra de aceituna negra, humo de romero en mesa.',
-        price: 24.00,
+        name: 'Pulpo a la Brasa',
+        description: 'Tentáculos de pulpo español, puré de coliflor ahumado, aceite de pimentón de la Vera.',
+        price: 28.00,
         category: 'Entradas Sensoriales',
         type: 'STARTER',
-        origin: 'Puglia, IT',
-        image_url: 'https://images.unsplash.com/photo-1627308595126-d34e9e4e37f8?auto=format&fit=crop&q=80&w=2070', // RETRYING with previously working fallback or new stable one
+        origin: 'Galicia, ES',
+        image_url: 'https://images.unsplash.com/photo-1565557623262-b51c2513a641?auto=format&fit=crop&q=80&w=2071', // Grilled Octopus / Curry styled, swapping to safer reliable food image if needed
     },
     {
         id: '3',
