@@ -29,7 +29,7 @@ NEXO PRIME es una propuesta gastronómica vanguardista ubicada en Las Mercedes, 
 - [x] Inicialización del Proyecto
 - [x] Esquema de Base de Datos (SQL & Seeds)
 - [x] Frontend: Landing Page (Hero y Feature Cards)
-- [ ] Frontend: Menú Interactivo
+- [x] Frontend: Menú Interactivo (Filtros y Animaciones)
 - [ ] Componente: Mapa de Mesas
 - [ ] Backend: Dashboard & KDS
 
