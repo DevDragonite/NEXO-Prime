@@ -7,8 +7,15 @@ import Image from 'next/image';
 
 const categories = ['Todos', 'Cortes Premium', 'Entradas Sensoriales', 'Coctelería de Autor'];
 
+// ... imports
+import { MenuItemModal } from '@/components/ui/MenuItemModal';
+import { MenuItem } from '@/types/database';
+
+// ... categories constant
+
 export default function MenuPage() {
     const [selectedCategory, setSelectedCategory] = useState('Todos');
+    const [selectedItem, setSelectedItem] = useState<MenuItem | null>(null);
 
     const filteredItems = selectedCategory === 'Todos'
         ? MENU_ITEMS
@@ -16,7 +23,10 @@ export default function MenuPage() {
 
     return (
         <div className="min-h-screen bg-[#0c0c0c] py-20 px-4 sm:px-6 lg:px-8">
+            <MenuItemModal item={selectedItem} onClose={() => setSelectedItem(null)} />
+
             <div className="max-w-7xl mx-auto">
+                {/* ... Header & Tabs (unchanged) ... */}
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -35,8 +45,8 @@ export default function MenuPage() {
                             key={category}
                             onClick={() => setSelectedCategory(category)}
                             className={`px-6 py-2 rounded-full text-sm font-medium transition-all duration-300 ${selectedCategory === category
-                                    ? 'bg-[#bea98e] text-black'
-                                    : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
+                                ? 'bg-[#bea98e] text-black'
+                                : 'bg-white/5 text-gray-400 hover:bg-white/10 hover:text-white'
                                 }`}
                         >
                             {category}
@@ -49,7 +59,7 @@ export default function MenuPage() {
                     layout
                     className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
                 >
-                    <AnimatePresence>
+                    <AnimatePresence mode='popLayout'>
                         {filteredItems.map((item) => (
                             <motion.div
                                 layout
@@ -58,7 +68,8 @@ export default function MenuPage() {
                                 exit={{ opacity: 0, scale: 0.9 }}
                                 transition={{ duration: 0.3 }}
                                 key={item.id}
-                                className="group bg-white/5 rounded-xl overflow-hidden border border-white/5 hover:border-[#bea98e]/30 transition-colors"
+                                onClick={() => setSelectedItem(item)}
+                                className="group bg-white/5 rounded-xl overflow-hidden border border-white/5 hover:border-[#bea98e]/30 transition-colors cursor-pointer"
                             >
                                 <div className="relative h-64 overflow-hidden">
                                     <Image
@@ -82,11 +93,11 @@ export default function MenuPage() {
                                         </h3>
                                         <span className="text-[#bea98e] font-bold">${item.price}</span>
                                     </div>
-                                    <p className="text-gray-400 text-sm mb-4 leading-relaxed">
+                                    <p className="text-gray-400 text-sm mb-4 leading-relaxed line-clamp-2">
                                         {item.description}
                                     </p>
                                     <button className="w-full py-3 border border-white/10 rounded-lg text-sm font-medium text-gray-300 hover:bg-[#bea98e] hover:text-black hover:border-transparent transition-all duration-300">
-                                        AGREGAR A LA MESA
+                                        VER DETALLES
                                     </button>
                                 </div>
                             </motion.div>
