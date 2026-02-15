@@ -20,7 +20,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Puglia, IT',
-        image_url: 'https://images.unsplash.com/photo-1627308595126-d34e9e4e37f8?auto=format&fit=crop&q=80&w=2070', // UPDATED: Burrata salad
+        image_url: 'https://images.unsplash.com/photo-1568471173242-461f0a730523?auto=format&fit=crop&q=80&w=2070', // NEW VALID URL
     },
     {
         id: '3',
@@ -32,69 +32,7 @@ export const MENU_ITEMS: MenuItem[] = [
         origin: 'Nacional AAAA',
         image_url: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=2069',
     },
-    {
-        id: '101',
-        name: 'Carpaccio de Cocodrilo',
-        description: 'Finas láminas marinadas en cítricos amazónicos, pimienta rosa y aceite de trufa.',
-        price: 28.00,
-        category: 'Entradas Sensoriales',
-        type: 'STARTER',
-        origin: 'Exotic Farm',
-        image_url: 'https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?auto=format&fit=crop&q=80&w=2070',
-    },
-    {
-        id: '102',
-        name: 'Ceviche de Chicharrón',
-        description: 'Panceta crocante, leche de tigre ahumada, maiz cancha y batata dulce.',
-        price: 22.00,
-        category: 'Entradas Sensoriales',
-        type: 'STARTER',
-        origin: 'Fusión',
-        image_url: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&q=80&w=2070',
-    },
-
-    // --- CORTES PREMIUM (INTERNACIONALES) ---
-    {
-        id: '4',
-        name: 'Tomahawk "Prime" (1.2kg)',
-        description: 'El rey de los cortes. Madurado 45 días en cámara de sal del Himalaya.',
-        price: 140.00,
-        category: 'Cortes Premium',
-        type: 'MEAT',
-        origin: 'Angus Prime, USA',
-        image_url: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=2070',
-    },
-    {
-        id: '5',
-        name: 'Wagyu A5 Kagoshima (200g)',
-        description: 'Marmoleo BMS 11-12. Servido con piedra caliente (Ishiyaki) para cocción al gusto.',
-        price: 180.00,
-        category: 'Cortes Premium',
-        type: 'MEAT',
-        origin: 'Kagoshima, JP',
-        image_url: 'https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&q=80&w=2070',
-    },
-    {
-        id: '6',
-        name: 'Ribeye Angus Gold (400g)',
-        description: 'Ojo de bife con inyección de mantequilla de trufa negra.',
-        price: 75.00,
-        category: 'Cortes Premium',
-        type: 'MEAT',
-        origin: 'Angus Certified',
-        image_url: 'https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80&w=2070',
-    },
-    {
-        id: '103',
-        name: 'Porterhouse Dry Aged (900g)',
-        description: 'Lo mejor de dos mundos: Filet Mignon y New York Strip. Maduración 60 días.',
-        price: 110.00,
-        category: 'Cortes Premium',
-        type: 'MEAT',
-        origin: 'USDA Prime',
-        image_url: 'https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&q=80&w=2070',
-    },
-
+    // ... items ...
     // --- CORTES NACIONALES (VENEZUELA) ---
     {
         id: '201',
@@ -104,7 +42,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Zulia, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1603073163308-9654c3fb70b9?auto=format&fit=crop&q=80&w=2070', // UPDATED: Grilled steak sliced
+        image_url: 'https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?auto=format&fit=crop&q=80&w=2070', // NEW VALID URL
     },
     {
         id: '202',
@@ -124,7 +62,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Llanos, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1600891965050-681b47c0b943?auto=format&fit=crop&q=80&w=2070', // UPDATED: Filet plated
+        image_url: 'https://images.unsplash.com/photo-1546833999-b9f581a1996d?auto=format&fit=crop&q=80&w=2070', // NEW VALID URL
     },
 
     // --- COCTELERÍA DE AUTOR ---
