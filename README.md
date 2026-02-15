@@ -11,26 +11,33 @@ NEXO PRIME es una propuesta gastronómica vanguardista ubicada en Las Mercedes, 
 - **Animaciones**: [Framer Motion](https://www.framer.com/motion/)
 - **Backend / DB**: [Supabase](https://supabase.com/) (PostgreSQL, Realtime)
 
+## Funcionalidades Implementadas 🚀
+
+### 1. Mapa de Mesas Interactivo
+- Visualización en tiempo real del plano del restaurante.
+- Nodos interactivos que representan mesas con estados (Libre, Ocupada, Pagando).
+- Panel lateral de detalles para gestión rápida.
+
+### 2. Menú Digital
+- Clasificación por categorías (Cortes Premium, Mixología, etc.).
+- Filtros dinámicos y animaciones de entrada.
+
+### 3. Landing Page Inmersiva
+- Secciones de innovación tecnológica y trazabilidad.
+
 ## Configuración de Base de Datos (Supabase) 🗄️
 
 1.  Crear un nuevo proyecto en [Supabase](https://supabase.com/).
 2.  Ir al **SQL Editor** y ejecutar el contenido del archivo `supabase/schema.sql`.
-    - Esto creará las tablas `tables`, `menu_items`, `orders`, `staff`.
-    - Insertará datos de prueba (Seed Data) para el menú y las mesas.
-    - Habilitará Realtime para las tablas críticas.
-3.  Obtener las credenciales (URL y Anon Key) y agregarlas a `.env.local`:
-    ```env
-    NEXT_PUBLIC_SUPABASE_URL=YOUR_SUPABASE_URL
-    NEXT_PUBLIC_SUPABASE_ANON_KEY=YOUR_SUPABASE_ANON_KEY
-    ```
+3.  Configurar `.env.local` con las credenciales.
 
 ## Estado del Proyecto 📊
 
 - [x] Inicialización del Proyecto
 - [x] Esquema de Base de Datos (SQL & Seeds)
-- [x] Frontend: Landing Page (Hero y Feature Cards)
-- [x] Frontend: Menú Interactivo (Filtros y Animaciones)
-- [ ] Componente: Mapa de Mesas
+- [x] Frontend: Landing Page
+- [x] Frontend: Menú Interactivo
+- [x] Componente: Mapa de Mesas (Visualización & Mock Data)
 - [ ] Backend: Dashboard & KDS
 
 ---
