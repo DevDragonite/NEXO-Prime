@@ -10,7 +10,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Kagoshima, JP',
-        image_url: 'https://images.unsplash.com/photo-1519708227418-c8fd9a32b7a2?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1546241072-48010ad2862c?auto=format&fit=crop&q=80&w=2070', // Valid Tartare
     },
     {
         id: '2',
@@ -20,7 +20,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Puglia, IT',
-        image_url: 'https://images.unsplash.com/photo-1599389974254-08eb41e86d79?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1608039755401-742074f0548d?auto=format&fit=crop&q=80&w=2070', // Valid Burrata
     },
     {
         id: '3',
@@ -30,7 +30,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Nacional AAAA',
-        image_url: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=2069',
+        image_url: 'https://images.unsplash.com/photo-1544025162-d76694265947?auto=format&fit=crop&q=80&w=2069', // Bone Marrow / Steak
     },
     {
         id: '101',
@@ -40,7 +40,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Exotic Farm',
-        image_url: 'https://images.unsplash.com/photo-1550505393-5596e271424d?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1514326640560-7d063ef2aed5?auto=format&fit=crop&q=80&w=2070', // High end carpaccio dish
     },
     {
         id: '102',
@@ -50,7 +50,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Entradas Sensoriales',
         type: 'STARTER',
         origin: 'Fusión',
-        image_url: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1535399831218-d5bd36d1a6b3?auto=format&fit=crop&q=80&w=2070', // Ceviche
     },
 
     // --- CORTES PREMIUM (INTERNACIONALES) ---
@@ -62,7 +62,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Premium',
         type: 'MEAT',
         origin: 'Angus Prime, USA',
-        image_url: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1600891964092-4316c288032e?auto=format&fit=crop&q=80&w=2070', // Tomahawk
     },
     {
         id: '5',
@@ -72,7 +72,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Premium',
         type: 'MEAT',
         origin: 'Kagoshima, JP',
-        image_url: 'https://images.unsplash.com/photo-1615937691194-97dbd3f3e69b?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1615937657715-bc7b4b7962c1?auto=format&fit=crop&q=80&w=2070', // Wagyu Raw
     },
     {
         id: '6',
@@ -82,7 +82,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Premium',
         type: 'MEAT',
         origin: 'Angus Certified',
-        image_url: 'https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1558030006-450675393462?auto=format&fit=crop&q=80&w=2070', // Ribeye
     },
     {
         id: '103',
@@ -92,7 +92,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Premium',
         type: 'MEAT',
         origin: 'USDA Prime',
-        image_url: 'https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1600891964599-f61ba0e24092?auto=format&fit=crop&q=80&w=2070', // Porterhouse
     },
 
     // --- CORTES NACIONALES (VENEZUELA) ---
@@ -104,7 +104,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Zulia, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1607116176195-b81b1f41f536?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1504973960431-1c467e159aa4?auto=format&fit=crop&q=80&w=2070', // Grilled Meat
     },
     {
         id: '202',
@@ -114,7 +114,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Lara, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1551028150-64b9f398f678?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1594041680534-e8c8cdebd659?auto=format&fit=crop&q=80&w=2070', // Picanha / Punta
     },
     {
         id: '203',
@@ -124,7 +124,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Cortes Nacionales',
         type: 'MEAT',
         origin: 'Llanos, VZLA',
-        image_url: 'https://images.unsplash.com/photo-1602447938363-2285df622c83?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1432139509613-5c4255815697?auto=format&fit=crop&q=80&w=2070', // Filet Mignon-ish
     },
 
     // --- COCTELERÍA DE AUTOR ---
@@ -136,7 +136,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería de Autor',
         type: 'DRINK',
         origin: 'Signature',
-        image_url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?auto=format&fit=crop&q=80&w=2070', // Whiskey
     },
     {
         id: '8',
@@ -146,7 +146,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería de Autor',
         type: 'DRINK',
         origin: 'Signature',
-        image_url: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=2070', // Mule
     },
     {
         id: '301',
@@ -156,7 +156,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería de Autor',
         type: 'DRINK',
         origin: 'Signature',
-        image_url: 'https://images.unsplash.com/photo-1575023782549-62ca0d244b39?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1575023782549-62ca0d244b39?auto=format&fit=crop&q=80&w=2070', // Martini
     },
     {
         id: '302',
@@ -166,7 +166,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería de Autor',
         type: 'DRINK',
         origin: 'Signature',
-        image_url: 'https://images.unsplash.com/photo-1551538827-9c037cb4f32d?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&q=80&w=2070', // Mojito
     },
 
     // --- COCTELERÍA CLÁSICA ---
@@ -178,7 +178,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería Clásica',
         type: 'DRINK',
         origin: 'Classic',
-        image_url: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&q=80&w=2069',
+        image_url: 'https://images.unsplash.com/photo-1470337458703-46ad1756a187?auto=format&fit=crop&q=80&w=2069', // Old Fashioned
     },
     {
         id: '402',
@@ -188,7 +188,7 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería Clásica',
         type: 'DRINK',
         origin: 'Classic',
-        image_url: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1556679343-c7306c1976bc?auto=format&fit=crop&q=80&w=2070', // Negroni
     },
     {
         id: '403',
@@ -198,6 +198,6 @@ export const MENU_ITEMS: MenuItem[] = [
         category: 'Coctelería Clásica',
         type: 'DRINK',
         origin: 'Classic',
-        image_url: 'https://images.unsplash.com/photo-1572915664157-12b7a9772ee5?auto=format&fit=crop&q=80&w=2070',
+        image_url: 'https://images.unsplash.com/photo-1560512823-8db0329b0f58?auto=format&fit=crop&q=80&w=2070', // Margarita
     },
 ];
