@@ -1,8 +1,9 @@
 'use client';
 
 import { useOrders, OrderStatus } from '@/hooks/useOrders';
-import { Clock, CheckCircle, Flame, ChefHat } from 'lucide-react';
+import { Clock, CheckCircle, Flame, ChefHat, ArrowLeft } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
+import Link from 'next/link';
 
 const statusColors: Record<OrderStatus, string> = {
     PENDING: 'border-yellow-500/50 bg-yellow-500/10',
@@ -21,10 +22,15 @@ export default function KDSPage() {
         <div className="min-h-screen bg-[#0c0c0c] py-10 px-4">
             <div className="max-w-7xl mx-auto">
                 <div className="flex items-center justify-between mb-8">
-                    <h1 className="text-3xl font-serif text-white flex items-center gap-3">
-                        <ChefHat className="text-[#bea98e]" />
-                        Kitchen Display System
-                    </h1>
+                    <div>
+                        <Link href="/admin" className="inline-flex items-center gap-2 text-gray-400 hover:text-white mb-4 transition-colors">
+                            <ArrowLeft className="w-4 h-4" /> Volver al Panel
+                        </Link>
+                        <h1 className="text-3xl font-serif text-white flex items-center gap-3">
+                            <ChefHat className="text-[#bea98e]" />
+                            Kitchen Display System
+                        </h1>
+                    </div>
                     <div className="flex gap-4 text-sm text-gray-400">
                         <span className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-yellow-500" /> Pendiente</span>
                         <span className="flex items-center gap-2"><div className="w-2 h-2 rounded-full bg-orange-500" /> En Fuego</span>
